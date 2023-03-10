@@ -11,3 +11,31 @@ h1.page2 {
 body ul li{
     color:indigogit
 }
+
+p{
+    text-decoration: underline #ccc double 0.1rem;
+    text-indent: 1rem;
+}
+
+p.maiusculo {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1rem;
+    line-height:  2rem;
+    word-spacing: 2rem;
+    color: white;
+    font: italic small-caps bold 2rem monospace;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
+}
+a:link, a:visited, a:active {
+    text-decoration:  none;
+    color: darkgoldenrod;
+}
+a:hover{
+    color:darkorange;
+}
+footer{
+    clear:both;
+    background: #d9d9d9 url("../img/wallpaper.jpeg") no-repeat left bottom;
+    height: 1rem;
+}
