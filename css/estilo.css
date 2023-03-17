@@ -1,19 +1,36 @@
 h1 {
-    color:blueviolet;
+    color: blue;
+    border: 1rem double aqua;
 }
 h1#page1 {
-    color:darkorchid;
+    color:lightskyblue;
+    border: 0.3rem double blue;
+}
+img {
+    width: 2orem;
+}
+ul {
+    list-style-type: square;
 }
 
 h1.page2 {
-    color:darkviolet;
+    color:lightskyblue;
+    border: 1rem double yellow;
+    border-radius: 0.3rem
+}
+ol{
+    list-style-type: upper-roman;
+}
+section img {
+    float: left
+
 }
 body ul li{
     color:indigogit
 }
 
 p{
-    text-decoration: underline #ccc double 0.1rem;
+    text-decoration: underline rgb(80, 80, 80) double 0.1rem;
     text-indent: 1rem;
 }
 
@@ -23,19 +40,35 @@ p.maiusculo {
     letter-spacing: 1rem;
     line-height:  2rem;
     word-spacing: 2rem;
-    color: white;
+    color: purple;
     font: italic small-caps bold 2rem monospace;
-    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem blue, 0 0 2rem darkblue;
+    text-shadow: 0.2rem 0.2rem 0.3rem black, 0 0 1rem darkorchid, 0 0 2rem darkorchid;
 }
 a:link, a:visited, a:active {
     text-decoration:  none;
-    color: darkgoldenrod;
+    color: purple;
 }
 a:hover{
-    color:darkorange;
+    color:purple;
 }
 footer{
     clear:both;
     background: #d9d9d9 url("../img/wallpaper.jpeg") no-repeat left bottom;
     height: 1rem;
+}
+main.grid {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2 rem
+}
+
+main.flexbox {
+    display: flex;
+    height: 100vh;
+    justify-items: center;
+}
+main.flexbox article{
+    background-color: lightgreen;
+    margin: 1rem;
+    padding: 2rem;
 }
